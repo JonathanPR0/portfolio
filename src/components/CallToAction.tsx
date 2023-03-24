@@ -1,11 +1,13 @@
 import CV from '../assets/cv.pdf'
-import LetsTalk from './LetsTalk'
+import PrimaryBtn from './PrimaryBtn'
+import LetsTalk from './PrimaryBtn'
+import SecondaryBtn from './SecondaryBtn'
 
 const CallToAction = () => {
   return (
     <div className='flex gap-5 justify-center'>
-      <a href={CV} download className='w-max py-3 px-5 cursor-pointer inline-block text-primary hover:text-backgroundVariant hover:bg-white border border-primary hover:border-white transition-colors rounded-md duration-[400ms]'>Download CV</a>
-      <LetsTalk />
+      <SecondaryBtn text='Download CV' href={CV} download />
+      <PrimaryBtn text="Let's Talk" href='#contact' />
     </div>
   )
 }

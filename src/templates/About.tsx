@@ -4,8 +4,8 @@ import Image from '../components/Image'
 import { FaAward } from "react-icons/fa"
 import { FiUsers } from "react-icons/fi"
 import { VscFolderLibrary } from "react-icons/vsc"
-import LetsTalk from '../components/LetsTalk'
 import Header from '../components/Header'
+import PrimaryBtn from '../components/PrimaryBtn'
 
 const About = () => {
   return (
@@ -28,7 +28,7 @@ const About = () => {
             </Card>
           </div>
           <p className='text-md text-colorLight text-left mt-4 mb-6 lg:mt-6 lg:mb-8'>Minha especialização é no desenvolvimento da interface visual de websites. Com um olhar atento aos detalhes, utilizo minhas habilidades em HTML, CSS e JavaScript para criar experiências de usuário atraentes e funcionais.  Devido à minha paixão pelo aprendizado contínuo e o desejo de permanecer atualizado sobre as últimas tendências e tecnologias, sou um profissional dedicado a aprimorar minhas habilidades e criar produtos de qualidade excepcional.</p>
-          <LetsTalk />
+          <PrimaryBtn text="Let's Talk" href='#contact' />
         </div>
       </div>
     </section>
