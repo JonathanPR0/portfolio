@@ -9,28 +9,28 @@ import { FaNodeJs, FaReact } from 'react-icons/fa'
 
 const Experience = () => (
   <section className='flex flex-col items-center w-full text-center mt-32 mx-auto experience'>
-    <Header sectionTitle='My Experience' subtitleText='What Skils I Have' />
+    <Header sectionTitle='Minha Experiência' subtitleText='Quais as Minhas Skils' />
     <div className='w-11/12 lg:w-10/12 max-w-5xl'>
       <div className='flex items-center justify-center flex-wrap mx-auto gap-4 w-full'>
-        <Card title='UI/UX' smallText='Intermediate' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
+        <Card title='UI/UX' smallText='Intermediário' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
           <FiFigma />
         </Card>
-        <Card title='HTML' smallText='Experienced' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
+        <Card title='HTML' smallText='Experiente' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
           <AiOutlineHtml5 />
         </Card>
-        <Card title='CSS' smallText='Experienced' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
+        <Card title='CSS' smallText='Experiente' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
           <TbBrandCss3 />
         </Card>
-        <Card title='Javascript' smallText='Intermediate' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
+        <Card title='Javascript' smallText='Intermediário' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
           <DiJavascript1 />
         </Card>
-        <Card title='Node JS' smallText='Intermediate' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
+        <Card title='Node JS' smallText='Intermediário' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
           <FaNodeJs />
         </Card>
-        <Card title='React' smallText='Intermediate' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
+        <Card title='React' smallText='Intermediário' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
           <FaReact />
         </Card>
-        <Card title='Tailwind' smallText='Intermediate' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
+        <Card title='Tailwind' smallText='Intermediário' iconClass='text-2xl' cardClass=" w-[43%] md:w-[30%] lg:w-[23%] ">
           <SiTailwindcss />
         </Card>
       </div>

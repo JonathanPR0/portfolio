@@ -13,7 +13,7 @@ const LinkNav = (props: LinkNavProps) => {
 
   return (
     <Link to={props.href} spy={true} smooth={true} offset={-80} duration={50} onClick={handleClick}>
-      <div className={`p-4 rounded-full text-lg ${props.isActive === props.href ? "bg-background text-white" : "text-colorLight hover:bg-blackNavBar transition-colors duration-[400ms]"}`}>{props.children}</div>
+      <span className={`display inline-block p-4 rounded-full text-lg ${props.isActive === props.href ? "bg-primary text-white" : "text-colorLight hover:bg-blackNavBar transition-colors duration-[400ms]"}`}>{props.children}</span>
     </Link>
 
   )
