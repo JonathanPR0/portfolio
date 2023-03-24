@@ -7,7 +7,7 @@ import FormContact from "../components/FormContact"
 
 const Contact = () => {
   return (
-    <section id='portfolio' className='flex flex-col items-center w-full text-center mt-32 mx-auto'>
+    <section className='flex flex-col items-center w-full text-center mt-32 mx-auto contact'>
       <Header sectionTitle='Contact Me' subtitleText='Get In Touch' />
       <div className='flex flex-col lg:flex-row mx-auto w-11/12 md:w-[55%] lg:w-10/12 max-w-5xl gap-8 lg:gap-[5%]'>
         <div className="flex flex-col gap-8 lg:w-[35%]">

@@ -7,7 +7,7 @@ import Image from "../components/Image"
 
 const Home = () => {
   return (
-    <header id="#" className='flex flex-col items-center h-screen sm:h-[68vh] lg:h-screen w-11/12 lg:w-10/12 max-w-5xl overflow-hidden pt-28 text-center my-0 mx-auto font-medium relative'>
+    <header className='flex flex-col items-center h-screen sm:h-[68vh] lg:h-screen w-11/12 lg:w-10/12 max-w-5xl overflow-hidden pt-28 text-center my-0 mx-auto font-medium relative home'>
       <h5 className='text-lg mb-4'>Hello I'm'</h5>
       <h1 className='text-4xl mb-2'>Jonathan Amarante</h1>
       <h5 className='text-lg text-colorLight mb-6'>Front-end Developer</h5>

@@ -7,7 +7,7 @@ const CallToAction = () => {
   return (
     <div className='flex gap-5 justify-center'>
       <SecondaryBtn text='Download CV' href={CV} download />
-      <PrimaryBtn text="Let's Talk" href='#contact' />
+      <PrimaryBtn text="Let's Talk" href='contact' scroll />
     </div>
   )
 }

@@ -9,7 +9,7 @@ import PrimaryBtn from '../components/PrimaryBtn'
 
 const About = () => {
   return (
-    <section id='about' className='flex flex-col items-center w-full text-center mt-32 mx-auto'>
+    <section className='flex flex-col items-center w-full mt-32 mx-auto about'>
       <Header sectionTitle='About Me' subtitleText='Get To Know' />
       <div className='grid grid-cols-1 sm:gap-0 lg:grid-cols-12 mx-auto w-11/12 lg:w-10/12 max-w-5xl'>
         <div className='grid place-items-center w-2/3 sm:w-1/2 mb-12 sm:mt-8 sm:mb-16 mx-auto lg:w-full aspect-square bg-gradient-to-tr from-transparentColor via-primary rounded-[2rem] col-span-5 md:col-span-4'>
@@ -28,7 +28,7 @@ const About = () => {
             </Card>
           </div>
           <p className='text-md text-colorLight text-left mt-4 mb-6 lg:mt-6 lg:mb-8'>Minha especialização é no desenvolvimento da interface visual de websites. Com um olhar atento aos detalhes, utilizo minhas habilidades em HTML, CSS e JavaScript para criar experiências de usuário atraentes e funcionais.  Devido à minha paixão pelo aprendizado contínuo e o desejo de permanecer atualizado sobre as últimas tendências e tecnologias, sou um profissional dedicado a aprimorar minhas habilidades e criar produtos de qualidade excepcional.</p>
-          <PrimaryBtn text="Let's Talk" href='#contact' />
+          <PrimaryBtn text="Let's Talk" href='contact' scroll className='self-start' />
         </div>
       </div>
     </section>

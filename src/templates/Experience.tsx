@@ -1,4 +1,3 @@
-import React from 'react'
 import { FiFigma } from 'react-icons/fi'
 import { AiOutlineHtml5 } from 'react-icons/ai'
 import { TbBrandCss3 } from 'react-icons/tb'
@@ -9,7 +8,7 @@ import Header from '../components/Header'
 import { FaNodeJs, FaReact } from 'react-icons/fa'
 
 const Experience = () => (
-  <section id='experience' className='flex flex-col items-center w-full text-center mt-32 mx-auto'>
+  <section className='flex flex-col items-center w-full text-center mt-32 mx-auto experience'>
     <Header sectionTitle='My Experience' subtitleText='What Skils I Have' />
     <div className='w-11/12 lg:w-10/12 max-w-5xl'>
       <div className='flex items-center justify-center flex-wrap mx-auto gap-4 w-full'>

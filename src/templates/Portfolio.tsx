@@ -4,7 +4,7 @@ import Img from "../assets/portfolio1.jpg"
 
 const Portfolio = () => {
   return (
-    <section id='portfolio' className='flex flex-col items-center w-full text-center mt-32 mx-auto'>
+    <section className='flex flex-col items-center w-full text-center mt-32 mx-auto portfolio'>
       <Header sectionTitle='Portfolio' subtitleText='My Recent Work' />
       <div className='mx-auto w-11/12 lg:w-10/12 max-w-5xl'>
         <div className='flex items-center justify-center flex-wrap mx-auto  gap-6 lg:gap-8 w-full'>
