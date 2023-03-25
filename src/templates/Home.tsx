@@ -1,5 +1,5 @@
 import CallToAction from "../components/CallToAction"
-import meImage from "../assets/me-1.png"
+import meImage from "../assets/me.png"
 import HeaderSocials from "../components/HeaderSocials"
 import Image from "../components/Image"
 import { Link } from "react-scroll"

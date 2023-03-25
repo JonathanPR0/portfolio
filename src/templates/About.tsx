@@ -16,10 +16,10 @@ const About = () => {
         </div>
         <div className='flex flex-col col-span-7 lg:col-end-13'>
           <div className='flex items-center justify-center flex-wrap mx-auto gap-4 w-full'>
-            <Card title='Experiência' smallText='2+ Anos Desenvolvendo' cardClass='w-[48%]'>
+            <Card title='Experiência' smallText='2+ Anos Desenvolvendo' cardClass='h-full w-[46%] sm:w-[48%]'>
               <FaAward />
             </Card>
-            <Card title='Projetos' smallText='20+ No Github' cardClass='w-[48%]'>
+            <Card title='Projetos' smallText='20+ No Github' cardClass='h-full w-[46%] sm:w-[48%]'>
               <VscFolderLibrary />
             </Card>
           </div>

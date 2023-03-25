@@ -10,7 +10,7 @@ import recipePage from "../assets/recipePage.png"
 const Portfolio = () => {
   return (
     <section className='flex flex-col items-center w-full text-center mt-32 mx-auto portfolio'>
-      <Header sectionTitle='Portfolio' subtitleText='Trabalhos Recentes' />
+      <Header sectionTitle='Portfólio' subtitleText='Trabalhos Recentes' />
       <div className='mx-auto w-11/12 lg:w-10/12 max-w-5xl'>
         <div className='flex justify-center flex-wrap mx-auto gap-6 lg:gap-8 w-full min-h-full'>
           <Project title='Pantanow' textPrimaryBtn='Veja Mais' urlPrimaryBtn='https://pantanow.vercel.app/' textSecondaryBtn='Github' urlSecondaryBtn='https://github.com/JonathanPR0/pantanow' srcImg={pantanow} />

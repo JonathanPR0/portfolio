@@ -2,10 +2,14 @@ import { AiOutlineMail } from "react-icons/ai"
 import { FaInstagram } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { Link } from "react-scroll"
+import Logo from "../components/Logo"
 
 const Footer = () => {
   return (
     <footer className='w-full bg-primary p-12 text-base text-center mt-32 text-background font-medium'>
+      <Link to='home' spy={true} smooth={true} offset={-80} duration={50} className="flex items-center justify-center mb-8 stroke-background hover:stroke-backgroundVariant transition-colors duration-[400ms]">
+        <Logo />
+      </Link>
       <div className="flex flex-col items-center w-11/12 lg:w-10/12 max-w-5xl overflow-hidden text-center mx-auto font-normal">
         <ul className='flex flex-col sm:flex-row gap-6 sm:gap-4 flex-wrap mb-12 mx-auto'>
           <li className="hover:text-white transition-colors duration-[400ms]"><Link to="home" spy={true} smooth={true} offset={-80} duration={50}>Home</Link></li>

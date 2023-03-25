@@ -12,6 +12,7 @@ module.exports = {
       white: '#fff',
       blackNavBar: 'rgba(0,0,0, 0.3)',
       transparentColor: 'rgba(255,255,255,0)',
+      feedback: '#7FAA32',
     },
   },
   plugins: [],
