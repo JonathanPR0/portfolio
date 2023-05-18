@@ -6,6 +6,7 @@ import themeSwitcher from "../assets/theme-switcher.png"
 import countdown from "../assets/countdown.png"
 import rocketflix from "../assets/rocketflix.png"
 import recipePage from "../assets/recipePage.png"
+import vibes80 from "../assets/vibes80.png"
 
 const Portfolio = () => {
   return (
@@ -19,6 +20,7 @@ const Portfolio = () => {
           <Project title='Countdown' textPrimaryBtn='Veja Mais' urlPrimaryBtn='https://jonathanpr0.github.io/countdown/' textSecondaryBtn='Github' urlSecondaryBtn='https://github.com/JonathanPR0/countdown' srcImg={countdown} />
           <Project title='Rocketflix' textPrimaryBtn='Veja Mais' urlPrimaryBtn='https://jonathanpr0.github.io/rocketflix/' textSecondaryBtn='Github' urlSecondaryBtn='https://github.com/JonathanPR0/rocketflix' srcImg={rocketflix} />
           <Project title='Recipe Page' textPrimaryBtn='Veja Mais' urlPrimaryBtn='https://jonathanpr0.github.io/recipePage/' textSecondaryBtn='Github' urlSecondaryBtn='https://github.com/JonathanPR0/recipePage' srcImg={recipePage} />
+          <Project title='80s Vibes' textPrimaryBtn='Veja Mais' urlPrimaryBtn='https://80s-vibes.vercel.app/' textSecondaryBtn='Github' urlSecondaryBtn='https://github.com/JonathanPR0/80s-Vibes' srcImg={vibes80} />
         </div>
       </div>
     </section>

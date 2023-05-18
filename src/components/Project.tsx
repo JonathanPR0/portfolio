@@ -13,7 +13,7 @@ interface ProjectProps {
 
 const Project = (props: ProjectProps) => {
   return (
-    <article className="flex flex-col w-full sm:w-[43%] md:w-[31%] p-5 bg-backgroundVariant hover:bg-transparentColor border border-transparentColor hover:border-primaryVariant rounded-[2rem] transition-colors duration-[400ms]">
+    <article className="flex flex-col w-full sm:w-[43%] md:w-[31%] p-5 bg-backgroundVariant border border-transparentColor hover:border-primaryVariant rounded-[2rem] transition-colors duration-[400ms]">
       <div>
         <Image src={props.srcImg} className="rounded-3xl overflow-hidden" />
       </div>

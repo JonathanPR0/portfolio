@@ -10,8 +10,9 @@ const Footer = () => {
       <Link to='home' spy={true} smooth={true} offset={-80} duration={50} className="flex items-center justify-center mb-8 stroke-background hover:stroke-backgroundVariant transition-colors duration-[400ms]">
         <Logo />
       </Link>
-      <div className="flex flex-col items-center w-11/12 lg:w-10/12 max-w-5xl overflow-hidden text-center mx-auto font-normal">
-        <ul className='flex flex-col sm:flex-row gap-6 sm:gap-4 flex-wrap mb-12 mx-auto'>
+      <div className="flex flex-col items-center justify-center w-11/12 lg:w-10/12 max-w-5xl overflow-hidden text-center mx-auto font-normal">
+
+        <ul className='flex justify-center sm:flex-row gap-6 sm:gap-4 flex-wrap mb-12 mx-auto w-full'>
           <li className="hover:text-white transition-colors duration-[400ms]"><Link to="home" spy={true} smooth={true} offset={-80} duration={50}>Home</Link></li>
           <li className="hover:text-white transition-colors duration-[400ms]"><Link to="about" spy={true} smooth={true} offset={-80} duration={50}>Sobre</Link></li>
           <li className="hover:text-white transition-colors duration-[400ms]"><Link to="experience" spy={true} smooth={true} offset={-80} duration={50}>Experiência</Link></li>
