@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <motion.main
-      className="flex flex-col items-center h-screen sm:h-[68vh] lg:h-screen w-11/12 lg:w-10/12 max-w-5xl overflow-hidden pt-28 text-center my-0 mx-auto font-medium relative home"
+      className="flex flex-col items-center h-screen sm:h-[68vh] lg:h-screen w-11/12 lg:w-10/12 max-w-5xl overflow-hidden pt-20 md:pt-28 text-center my-0 mx-auto font-medium relative home"
       initial={{ opacity: 0, y: 50 }}
       animate={{
         opacity: 1,
